@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'Doulos SIL Cipher';
+	src: url('DoulosSILCipher-R.ttf') format('ttf');
+}
+h1, h2{
+	text-align: center;
+	margin: 0;
+}
+
+body {
+	font-family: 'Doulos SIL Cipher', serif;
+}
+
+table {
+	margin: 0 auto;
+	width: 70%;
+	border-collapse: collapse;
+	font-size: 16px;
+	table-layout: fixed;
+}
+
+td {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+td:first-child {
+	border-left: none;
+}
+
+td:last-child {
+	border-right: none;
+}
+
+.top-hand {
+	border-bottom: none;
+}
+
+.bottom-hand {
+	border-top: none;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.bar span {
+  text-align: left;
+}
